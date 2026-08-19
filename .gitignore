@@ -18,6 +18,10 @@
 *.pem
 npm-debug.log*
 
+# tooling
+.claude/
+.vercel/
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts

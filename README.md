@@ -30,10 +30,10 @@ imported once in `src/lib/images.ts`.
 
 | File | Ratio | Used by |
 | --- | --- | --- |
-| `hero-athletes.jpg` | 4:3 | Hero |
-| `sport-*.jpg` (6) | 16:10 | Sports carousel |
-| `athlete-portrait.jpg` | ~4:5 | Example profile card |
-| `og-sportfo.jpg` | 1.91:1 | Social share preview |
+| `hero-athletes.svg` | 4:3 | Hero |
+| `sport-*.svg` (6) | 16:10 | Sports carousel |
+| `athlete-portrait.svg` | ~4:5 | Example profile card |
+| `og-sportfo.svg` | 1.91:1 | Social share preview |
 
 Regenerate with `python3 tools/generate-images.py`.
 
@@ -85,7 +85,22 @@ supabase/
   migrations/0001_init.sql    Database schema + RLS + Storage bucket
   migrations/0002_athlete_photo.sql  Profile photo column + photos bucket
   README.md                   Supabase setup instructions
+docs/
+  sportfo-product-spec.docx   Original product/requirements spec
 ```
+
+## Deployment
+
+Production runs on Vercel, auto-deployed from the `main` branch of
+[github.com/ShoaebMalik19/Sportfo](https://github.com/ShoaebMalik19/Sportfo).
+Pushing (or merging a PR) to `main` triggers a new build automatically — there
+is no manual deploy step and no build artifacts are committed to the repo.
+
+Live URL: https://sportfo.vercel.app
+
+To add real Supabase credentials to the deployment, set the variables from
+`.env.example` in the Vercel project's Environment Variables settings, then
+redeploy.
 
 ## Accessibility and motion
 
