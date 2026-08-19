@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="1600" height="1000" preserveAspectRatio="xMidYMid slice" role="img"><defs>
+<linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#070B14"/><stop offset="1" stop-color="#2F2920"/>
+</linearGradient>
+<radialGradient id="glowA" cx="0.74" cy="0.26" r="0.78">
+<stop offset="0" stop-color="#EFA524" stop-opacity="0.55"/><stop offset="1" stop-color="#EFA524" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="glowB" cx="0.08" cy="0.95" r="0.6">
+<stop offset="0" stop-color="#2340D6" stop-opacity="0.4"/><stop offset="1" stop-color="#2340D6" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="vig" cx="0.5" cy="0.5" r="0.72">
+<stop offset="0.45" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity="0.5"/>
+</radialGradient>
+<linearGradient id="dotFade" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#fff" stop-opacity="0.55"/><stop offset="0.7" stop-color="#fff" stop-opacity="0"/>
+</linearGradient>
+<mask id="dotMask"><rect width="1600" height="1000" fill="url(#dotFade)"/></mask>
+<pattern id="dots" width="17" height="17" patternUnits="userSpaceOnUse">
+<circle cx="4" cy="4" r="2.3" fill="#F4C066"/>
+</pattern>
+<filter id="soft" x="-25%" y="-25%" width="150%" height="150%">
+<feGaussianBlur stdDeviation="7"/></filter>
+<filter id="ghost" x="-15%" y="-15%" width="130%" height="130%">
+<feGaussianBlur stdDeviation="1.2"/></filter>
+</defs><rect width="1600" height="1000" fill="url(#bg)"/><rect width="1600" height="1000" fill="url(#dots)" mask="url(#dotMask)"/><rect width="1600" height="1000" fill="url(#glowA)"/><rect width="1600" height="1000" fill="url(#glowB)"/><circle cx="992" cy="1350" r="420" fill="none" stroke="#fff" stroke-width="2" opacity="0.26"/><circle cx="992" cy="1350" r="535" fill="none" stroke="#fff" stroke-width="2" opacity="0.23"/><circle cx="992" cy="1350" r="650" fill="none" stroke="#fff" stroke-width="2" opacity="0.20"/><circle cx="992" cy="1350" r="765" fill="none" stroke="#fff" stroke-width="2" opacity="0.18"/><circle cx="992" cy="1350" r="880" fill="none" stroke="#fff" stroke-width="2" opacity="0.15"/><circle cx="992" cy="1350" r="995" fill="none" stroke="#fff" stroke-width="2" opacity="0.12"/><circle cx="992" cy="1350" r="1110" fill="none" stroke="#fff" stroke-width="2" opacity="0.09"/><g filter="url(#soft)" transform="rotate(-20 800 500)" opacity="0.5"><line x1="1142" y1="1006" x2="1850" y2="1006" stroke="#F6CE87" stroke-width="5" opacity="0.29"/><line x1="1413" y1="-123" x2="1824" y2="-123" stroke="#F6CE87" stroke-width="3" opacity="0.16"/><line x1="1209" y1="825" x2="1904" y2="825" stroke="#F6CE87" stroke-width="2" opacity="0.41"/><line x1="179" y1="871" x2="823" y2="871" stroke="#F6CE87" stroke-width="3" opacity="0.20"/><line x1="1115" y1="740" x2="2115" y2="740" stroke="#F6CE87" stroke-width="3" opacity="0.55"/><line x1="1058" y1="677" x2="2111" y2="677" stroke="#F6CE87" stroke-width="2" opacity="0.39"/><line x1="1080" y1="1023" x2="1947" y2="1023" stroke="#F6CE87" stroke-width="5" opacity="0.50"/><line x1="1125" y1="1059" x2="1955" y2="1059" stroke="#F6CE87" stroke-width="3" opacity="0.17"/><line x1="726" y1="20" x2="1668" y2="20" stroke="#F6CE87" stroke-width="2" opacity="0.29"/><line x1="776" y1="269" x2="1421" y2="269" stroke="#F6CE87" stroke-width="9" opacity="0.23"/><line x1="-24" y1="942" x2="745" y2="942" stroke="#F6CE87" stroke-width="5" opacity="0.57"/></g><g transform="translate(928 20) scale(10.5000)" fill="none" stroke="#FFFFFF" stroke-width="0.67" stroke-linecap="round" stroke-linejoin="round" opacity="0.14" filter="url(#ghost)"><path d="M40 26v52M50 26v52M60 26v52"/><path d="M37 23h15M48 23h15"/><circle cx="20" cy="60" r="11.5"/><path d="M15.2 50.6a11.5 11.5 0 000 18.8M24.8 50.6a11.5 11.5 0 010 18.8"/></g><g transform="translate(99 130) scale(2.6000)" fill="none" stroke="#F9DBA7" stroke-width="2.69" stroke-linecap="round" stroke-linejoin="round" opacity="0.95"><path d="M40 26v52M50 26v52M60 26v52"/><path d="M37 23h15M48 23h15"/><circle cx="20" cy="60" r="11.5"/><path d="M15.2 50.6a11.5 11.5 0 000 18.8M24.8 50.6a11.5 11.5 0 010 18.8"/></g><rect width="1600" height="1000" fill="url(#vig)"/></svg>

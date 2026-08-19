@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1200" width="1600" height="1200" preserveAspectRatio="xMidYMid slice" role="img"><defs>
+<linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#070B14"/><stop offset="1" stop-color="#111C3F"/>
+</linearGradient>
+<radialGradient id="glowA" cx="0.62" cy="0.18" r="0.78">
+<stop offset="0" stop-color="#3355EA" stop-opacity="0.55"/><stop offset="1" stop-color="#3355EA" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="glowB" cx="0.08" cy="0.95" r="0.6">
+<stop offset="0" stop-color="#2340D6" stop-opacity="0.4"/><stop offset="1" stop-color="#2340D6" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="vig" cx="0.5" cy="0.5" r="0.72">
+<stop offset="0.45" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity="0.5"/>
+</radialGradient>
+<linearGradient id="dotFade" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#fff" stop-opacity="0.55"/><stop offset="0.7" stop-color="#fff" stop-opacity="0"/>
+</linearGradient>
+<mask id="dotMask"><rect width="1600" height="1200" fill="url(#dotFade)"/></mask>
+<pattern id="dots" width="17" height="17" patternUnits="userSpaceOnUse">
+<circle cx="4" cy="4" r="2.3" fill="#7088F0"/>
+</pattern>
+<filter id="soft" x="-25%" y="-25%" width="150%" height="150%">
+<feGaussianBlur stdDeviation="7"/></filter>
+<filter id="ghost" x="-15%" y="-15%" width="130%" height="130%">
+<feGaussianBlur stdDeviation="1.2"/></filter>
+</defs><rect width="1600" height="1200" fill="url(#bg)"/><rect width="1600" height="1200" fill="url(#dots)" mask="url(#dotMask)"/><rect width="1600" height="1200" fill="url(#glowA)"/><rect width="1600" height="1200" fill="url(#glowB)"/><circle cx="720" cy="1620" r="504" fill="none" stroke="#fff" stroke-width="2" opacity="0.26"/><circle cx="720" cy="1620" r="642" fill="none" stroke="#fff" stroke-width="2" opacity="0.23"/><circle cx="720" cy="1620" r="780" fill="none" stroke="#fff" stroke-width="2" opacity="0.20"/><circle cx="720" cy="1620" r="918" fill="none" stroke="#fff" stroke-width="2" opacity="0.18"/><circle cx="720" cy="1620" r="1056" fill="none" stroke="#fff" stroke-width="2" opacity="0.15"/><circle cx="720" cy="1620" r="1194" fill="none" stroke="#fff" stroke-width="2" opacity="0.12"/><circle cx="720" cy="1620" r="1332" fill="none" stroke="#fff" stroke-width="2" opacity="0.09"/><g filter="url(#soft)" transform="rotate(-20 800 600)" opacity="0.4"><line x1="918" y1="183" x2="1772" y2="183" stroke="#FFFFFF" stroke-width="3" opacity="0.42"/><line x1="153" y1="33" x2="924" y2="33" stroke="#FFFFFF" stroke-width="3" opacity="0.33"/><line x1="316" y1="1087" x2="1249" y2="1087" stroke="#FFFFFF" stroke-width="9" opacity="0.52"/><line x1="1294" y1="691" x2="2279" y2="691" stroke="#FFFFFF" stroke-width="5" opacity="0.17"/><line x1="68" y1="468" x2="1148" y2="468" stroke="#FFFFFF" stroke-width="9" opacity="0.60"/><line x1="-37" y1="249" x2="589" y2="249" stroke="#FFFFFF" stroke-width="9" opacity="0.48"/><line x1="154" y1="849" x2="936" y2="849" stroke="#FFFFFF" stroke-width="2" opacity="0.43"/><line x1="646" y1="76" x2="1721" y2="76" stroke="#FFFFFF" stroke-width="2" opacity="0.38"/><line x1="318" y1="708" x2="879" y2="708" stroke="#FFFFFF" stroke-width="3" opacity="0.29"/></g><g transform="translate(480 72) scale(11.0400)" fill="none" stroke="#FFFFFF" stroke-width="0.63" stroke-linecap="round" stroke-linejoin="round" opacity="0.16" filter="url(#ghost)"><circle cx="50" cy="56" r="34"/><path d="M50 56V33M50 56l16 10"/><path d="M41 13h18M50 13v9"/></g><g transform="translate(96 624) scale(4.8000)" fill="none" stroke="#ACBCFA" stroke-width="1.46" stroke-linecap="round" stroke-linejoin="round" opacity="0.5"><circle cx="50" cy="50" r="36"/><polygon points="50.0,37.8 61.6,46.2 57.2,59.9 42.8,59.9 38.4,46.2"/><path d="M50.0 37.8L50.0 14.0M61.6 46.2L84.2 38.9M57.2 59.9L71.2 79.1M42.8 59.9L28.8 79.1M38.4 46.2L15.8 38.9"/></g><g transform="translate(1088 720) scale(3.6000)" fill="none" stroke="#F5C97C" stroke-width="1.94" stroke-linecap="round" stroke-linejoin="round" opacity="0.55"><path d="M37 70a13 13 0 0026 0"/><path d="M37 70h26"/><path d="M37 70L20 21M63 70l17-49"/><path d="M20 21a34 12 0 0160 0"/><path d="M43 68L34 22M50 68V22M57 68l9-46"/></g><rect width="1600" height="1200" fill="url(#vig)"/></svg>
